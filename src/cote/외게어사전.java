@@ -1,6 +1,6 @@
 package cote;
 
-public class Solution {
+public class 외게어사전 {
 
 	public int solution(String[] spell, String[] dic) {
 		int answer = 0;
@@ -20,6 +20,6 @@ public class Solution {
 	public static void main(String[] args) {
 		String[] a = { "z", "d", "x" };
 		String[] d = { "def", "dww", "dzx", "loveaw" };
-		System.out.println(new Solution().solution(a, d));
+		System.out.println(new 외게어사전().solution(a, d));
 	}
 }
