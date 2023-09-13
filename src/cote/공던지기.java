@@ -3,7 +3,7 @@ package cote;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution {
+public class 공던지기 {
 
     public int solution(int[] numbers, int k) {
         Queue<Integer> list = new LinkedList<>();
@@ -25,6 +25,6 @@ public class Solution {
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 3, 4, 5, 6 };
 		String[] d = { "def", "dww", "dzx", "loveaw" };
-		System.out.println(new Solution().solution2(a,5));
+		System.out.println(new 공던지기().solution2(a,5));
 	}
 }
