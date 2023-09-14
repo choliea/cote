@@ -3,7 +3,7 @@ package cote;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution {
+public class 영어가싫어요 {
 
 	public long solution(String numbers) {
         long answer = 0; 
@@ -72,6 +72,6 @@ public long solution2(String numbers) {
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 3, 4, 5, 6 };
 		String[] d = { "def", "dww", "dzx", "loveaw" };
-		System.out.println(new Solution().solution("onetwoonefouronesixseveneightnine"));
+		System.out.println(new 영어가싫어요().solution("onetwoonefouronesixseveneightnine"));
 	}
 }
