@@ -3,7 +3,7 @@ package cote;
 import java.util.*;
 import java.util.Map.Entry;
 
-public class Solution {
+public class 성격유형검사 {
 
 	 public String solution(String[] survey, int[] choices) {
 	        String answer = "";
@@ -58,7 +58,7 @@ public class Solution {
 	public static void main(String[] args) {
 		String[] park = { "AN", "CF", "MJ", "RT", "NA" };
 		int[] routes = { 5, 3, 2, 7, 5};
-		String answer= new Solution().solution(park,routes);
+		String answer= new 성격유형검사().solution(park,routes);
 		//for (int i = 0; i < answer.length; i++) {
 			System.out.print(answer + " ");
 		//}
