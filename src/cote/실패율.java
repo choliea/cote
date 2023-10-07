@@ -9,7 +9,7 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Solution {
+public class 실패율 {
 
 	public ArrayList<Integer> solution(int N, int[] stages) {
 		ArrayList<Integer> answer = new ArrayList<Integer>();
@@ -46,7 +46,7 @@ public class Solution {
 		int[] reverse = { 3, 4, 5 };
 		String[] routes = { "AGZ", "BSSS" };
 		String[] goal = { "ASA", "BGZ" };
-		ArrayList<Integer> answer = new Solution().solution(5, lost);
+		ArrayList<Integer> answer = new 실패율().solution(5, lost);
 		for (int i = 0; i < answer.size(); i++) {
 			System.out.print(answer.get(i) + " ");
 		}
